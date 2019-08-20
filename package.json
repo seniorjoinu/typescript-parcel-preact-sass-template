@@ -1,0 +1,22 @@
+{
+  "name": "rtp-landing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc --noEmit --watch & parcel index.html",
+    "build": "rm -rf dist && parcel build index.html --public-url './'"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "postcss-modules": "^1.4.1",
+    "preact": "8.5.2",
+    "typescript-plugin-css-modules": "1.2.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "1.12.3",
+    "sass": "1.22.10",
+    "tslint": "^5.18.0",
+    "typescript": "3.5.3"
+  }
+}
